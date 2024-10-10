@@ -1,0 +1,70 @@
+/* Basic styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #3e3e3e;
+    margin: 0;
+    padding: 0;
+    color: #d2d2d2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+/* Basic styles for buttons */
+input,
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+input,
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Basic styles for headers */
+h1, h2, h3, h4, h5, h6 {
+    color: #acacac;
+    margin: 20px 0 10px;
+    text-align: center;
+}
+
+/* Basic styles for paragraphs */
+p {
+    line-height: 1.6;
+    margin: 10px 0;
+}
+
+/* Basic styles for links */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+.user-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin : 1rem auto;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    background-color: #0056b3;
+}
+
